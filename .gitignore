@@ -1,0 +1,5 @@
+config/config.local.php
+cpanel-deploy/*.zip
+.DS_Store
+Thumbs.db
+*.log
