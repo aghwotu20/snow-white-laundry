@@ -28,7 +28,7 @@ require __DIR__ . '/../includes/dashboard_header.php';
 ?>
 
 <!-- Executive Welcome & Quick System Controls Card -->
-<div class="card" style="display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap;margin-bottom:24px;background:linear-gradient(135deg,#0f2133 0%,#14283e 65%,#0369a1 100%);color:#fff;border:none;">
+<div class="card" style="display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap;margin-bottom:24px;background:radial-gradient(circle at 92% 15%, rgba(255,90,31,0.34), transparent 45%), linear-gradient(135deg,#081230 0%,#142f7a 58%,#1d4ed8 100%);color:#fff;border:none;box-shadow:var(--shadow-sm);">
   <div style="display:flex;align-items:center;gap:18px;">
     <div class="passport-avatar" style="width:74px;height:88px;border-width:3px;">
       <?php if ($avatarUrl): ?>

@@ -1,5 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
-  <rect x="6" y="6" width="116" height="116" rx="26" fill="#EBF5FB" stroke="#1E6FA8" stroke-width="6"/>
-  <circle cx="98" cy="30" r="8" fill="#0284C7"/>
-  <text x="64" y="80" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="800" fill="#162A41">SW</text>
+  <defs>
+    <linearGradient id="favGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1D4ED8"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
+    </linearGradient>
+  </defs>
+  <rect x="6" y="6" width="116" height="116" rx="28" fill="url(#favGrad)"/>
+  <circle cx="98" cy="30" r="10" fill="#FF5A1F"/>
+  <text x="64" y="81" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="800" fill="#FFFFFF">SW</text>
 </svg>

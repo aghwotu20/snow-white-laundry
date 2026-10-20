@@ -23,7 +23,7 @@ $flashes    = swl_get_flashes();
   <meta name="description" content="<?= e($pageDesc) ?>">
   <link rel="icon" href="<?= e(swl_favicon_url()) ?>">
   <link rel="apple-touch-icon" href="<?= e(swl_favicon_url()) ?>">
-  <link rel="stylesheet" href="<?= e(swl_base_url('assets/css/style.css')) ?>">
+  <link rel="stylesheet" href="<?= e(swl_base_url('assets/css/style.css')) ?>?v=<?= filemtime(SWL_ROOT . '/assets/css/style.css') ?>">
 </head>
 <body>
 <?php if (swl_is_maintenance() && $currUser && $currUser['role'] === 'admin'): ?>

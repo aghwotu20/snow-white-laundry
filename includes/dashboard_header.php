@@ -43,7 +43,7 @@ $navItems = match ($role) {
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title><?= e($dashTitle) ?> | <?= e($siteName) ?></title>
   <link rel="icon" href="<?= e(swl_favicon_url()) ?>">
-  <link rel="stylesheet" href="<?= e(swl_base_url('assets/css/style.css')) ?>">
+  <link rel="stylesheet" href="<?= e(swl_base_url('assets/css/style.css')) ?>?v=<?= filemtime(SWL_ROOT . '/assets/css/style.css') ?>">
 </head>
 <body class="dash-body">
 <div class="dash-layout">
